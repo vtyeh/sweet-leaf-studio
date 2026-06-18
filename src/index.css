@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Quicksand:wght@300;400&family=Sorts+Mill+Goudy:ital@0;1&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  background-color: #e2e4de;
+  color: #434341;
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-size: 3em;
+  font-style: italic;
+}
+
+/* ── Hero ───────────────────────────────────────────────── */
+
+.fancy-font {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 4em;
+  max-width: 13em;
+}
+
+.hero-img {
+  max-width: 20vw;
+  height: auto;
+  margin-left: 6em;
+}
+
+.hero-name {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.hero-name-line {
+  display: inline-block;
+  width: 4em;
+  height: 1px;
+  background-color: #434341;
+  flex-shrink: 0;
+}
+
+#main {
+  padding: 5em;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+/* ── Navbar (unchanged) ─────────────────────────────────── */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0.7em;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #434341;
+}
+
+.navbar button {
+  border: none;
+  background-color: transparent;
+  font-family: "Quicksand", sans-serif;
+  color: #434341;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.navbar button:hover {
+  cursor: pointer;
+}
+
+.navbarLinks {
+  display: flex;
+  justify-content: space-evenly;
+  width: 20em;
+}
+
+.navbarLinks button {
+  transform: translateY(-1em);
+}
+
+.chinese {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Social (unchanged) ─────────────────────────────────── */
+
+.contactLinks {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: fixed;
+  left: 1em;
+  height: 100%;
+  width: 25px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: translateY(50%);
+  z-index: 100;
+}
+
+.socialIcon {
+  width: 20px;
+  margin: 0.5em 0 0.5em 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.socialIcon:hover {
+  transform: scale(1.2);
+}
+
+/* ── Shared section styles ──────────────────────────────── */
+
+.port-section {
+  padding: 8em 7em;
+  min-height: 100vh;
+  box-sizing: border-box;
+  width: 100%;
+  border-top: 1px solid #c9cbc4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-inner {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 2em;
+}
+
+.section-label {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #131313;
+  margin: 0 0 3em;
+}
+
+/* ── About ──────────────────────────────────────────────── */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 5em;
+  align-items: center;
+}
+
+.about-img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 1em 0;
+}
+
+.about-text h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-size: 3em;
+  margin: 0 0 0.3em;
+  line-height: 1.2;
+}
+
+.about-text p {
+  margin: 0 0 1.4em;
+  line-height: 1.9;
+  text-align: justify;
+}
+
+.about-text a {
+  color: #434341;
+  border-bottom: 1px solid #939393;
+  text-decoration: none;
+}
+
+.about-text a:hover {
+  border-bottom-color: #434341;
+}
+
+/* ── Services ───────────────────────────────────────────── */
+
+.services-list {
+  max-width: 680px;
+}
+
+.service-item {
+  display: grid;
+  grid-template-columns: 3em 1fr;
+  gap: 2em;
+  padding: 2.5em 0;
+  border-bottom: 1px solid #c9cbc4;
+  align-items: start;
+}
+
+.service-item:first-child {
+  border-top: 1px solid #c9cbc4;
+}
+
+.service-num {
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.4em;
+  color: #939393;
+  padding-top: 0.2em;
+}
+
+.service-body h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.7em;
+  margin: 0 0 0.5em;
+  line-height: 1.2;
+}
+
+.service-body p {
+  margin: 0;
+  line-height: 1.8;
+  color: #5a5a57;
+}
+
+/* ── Poetry ─────────────────────────────────────────────── */
+.poetry-inner {
+  width: 75%;
+  max-width: 500px;
+}
+
+.poetry-heading {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-size: 3em;
+  line-height: 1.2;
+  margin: 0 0 1em;
+}
+
+.linkButton {
+  text-decoration: none;
+  border: 1px solid #434341;
+  padding: 0.5em 1.2em;
+  border-radius: 2em;
+  color: #434341;
+  letter-spacing: 0.05em;
+  display: inline-block;
+}
+
+.linkButton:hover {
+  background-color: rgb(250, 250, 250);
+}
+
+/* ── Footer ─────────────────────────────────────────────── */
+
+footer {
+  padding: 1em;
+  letter-spacing: 0.05em;
+  border-top: 1px solid #c9cbc4;
+}
+
+/* ── Responsive ─────────────────────────────────────────── */
+
+/* ── Hero mobile: image becomes background, text goes white ── */
+
+@media screen and (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+
+  #main {
+    background-image: url("/shell_flower.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  #main::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(67, 67, 65, 0.45);
+  }
+
+  #main > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  #main .fancy-font,
+  #main .fancy-font i,
+  #main .hero-name {
+    color: #f5f4f0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #main,
+  .port-section {
+    padding: 6em 3em;
+  }
+
+  .fancy-font {
+    font-size: 3em;
+  }
+
+  #poetryPage {
+    padding: 2.5em;
+  }
+
+  .service-item {
+    grid-template-columns: 2.5em 1fr;
+    gap: 1em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #main,
+  .port-section {
+    padding: 5em 4em;
+  }
+
+  .about-img, .about-text, .poetry-inner {
+    width: 100%;
+  }
+
+  footer {
+    padding: 2em;
+  }
+}
