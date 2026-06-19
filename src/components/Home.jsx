@@ -30,16 +30,18 @@ export default function Home() {
         <div className="section-inner">
           <p className="section-label">About</p>
           <div className="about-grid">
-            <img src={thisMe} className="about-img" alt="portrait of Venessa" />
+            <div style={{border: "0 solid", marginBottom: "2em", padding: "1em 1em 3em 1em", width: "300px", borderRadius: "5px", boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)"}}>
+              <img src={thisMe} className="about-img" alt="portrait of Venessa" />
+            </div>
             <div className="about-text">
               <h2><i>sweet leaf</i> studio</h2>
               <p>Hi! I'm Venessa, founder of sweet leaf studio. The name comes from my Chinese name:
-                葉香儀. It also describes how I treat digital spaces as spaces worth tending to.
+                葉香儀. I think of digital spaces as real spaces, where people actually spend time in.
               </p>
               <p>
-                I have 8 years of experience building full-stack
-                applications for small teams. I have a background in sociology and
-                philosophy, which means I bring as much care to how a site feels as to how it's built. 
+                I have a background in sociology and philosophy, and 8 years of experience building full-stack
+                applications for small teams. This combination shapes the way I build: efficient on the inside 
+                and delightful on the outside.
                 I'm also the creator and editor-in-chief of{" "}
                 <a href="https://opol.space/" target="_blank" rel="noreferrer">
                   Opol
@@ -47,7 +49,7 @@ export default function Home() {
                 , a quiet space for poetry.
               </p>
               <p>
-                at sweet leaf studio, I work with therapists, private practices, and independent makers 
+                At sweet leaf studio, I work with therapists, private practices, and independent makers 
                 who want a website that is part of the experience and energy they bring. I care about using tools that don't 
                 extract from you, your users, or anyone else.
               </p>
@@ -105,7 +107,7 @@ export default function Home() {
                 target="_blank"
                 rel="noreferrer"
               >
-                read on Opol
+                Read on Opol
               </a>
             </div>
           </div>
@@ -113,7 +115,7 @@ export default function Home() {
       </section>
 
       <footer>
-        created with figma, react, and github pages. icons from freepik and
+        created with figma, react, github, and netlify. icons from freepik and
         pixelmeetup. © sweet leaf studio {currentYear}
       </footer>
     </div>

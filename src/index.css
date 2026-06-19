@@ -280,6 +280,7 @@ footer {
   padding: 1em;
   letter-spacing: 0.05em;
   border-top: 1px solid #c9cbc4;
+  text-align: center;
 }
 
 /* ── Responsive ─────────────────────────────────────────── */
@@ -351,14 +352,6 @@ footer {
   .service-item {
     grid-template-columns: 2.5em 1fr;
     gap: 1em;
-  }
-
-  .navbar button {
-    color: #f5f4f0;
-  }
-
-  .contactLinks {
-    color: #f5f4f0;
   }
 }
 
