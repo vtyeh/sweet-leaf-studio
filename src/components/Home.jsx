@@ -39,19 +39,19 @@ export default function Home() {
               <p>
                 I have 8 years of experience building full-stack
                 applications for small teams. I have a background in sociology and
-                philosophy, which means I bring as much attention to how a site{" "}
-                <em>feels</em> to use as to how it's built. I'm also the creator
-                and editor-in-chief of{" "}
+                philosophy, which means I bring as much care to how a site feels as to how it's built. 
+                I'm also the creator and editor-in-chief of{" "}
                 <a href="https://opol.space/" target="_blank" rel="noreferrer">
                   Opol
                 </a>
-                , a quiet space for poetry online.
+                , a quiet space for poetry.
               </p>
               <p>
                 at sweet leaf studio, I work with therapists, private practices, and independent makers 
-                who want a website that actually reflects what they do. I care about using tools that don't 
-                extract—from you, your users, or anyone else.
+                who want a website that is part of the experience and energy they bring. I care about using tools that don't 
+                extract from you, your users, or anyone else.
               </p>
+              <p>To get in touch, email me at hello@sweetleaf.studio</p>
             </div>
           </div>
         </div>
@@ -65,33 +65,25 @@ export default function Home() {
             <div className="service-item">
               <span className="service-num">01</span>
               <div className="service-body">
-                <h3>Custom Website Design</h3>
+                <h3>Custom Website Design // $2200</h3>
                 <p>
-                  Fully designed, hand-coded site built around your work—not a
-                  template with your name on it. Includes up to 6 pages, mobile
-                  responsiveness, and 30 days of support.
-                </p>
+                  A fully designed, hand-coded website built around your practice or work. Includes up to 6 pages, mobile responsiveness, a content management system so you can update your own copy without touching code, an initial consultation, two rounds of feedback, and 30 days of support after launch.                </p>
               </div>
             </div>
             <div className="service-item">
               <span className="service-num">02</span>
               <div className="service-body">
-                <h3>Content-Driven Sites</h3>
+                <h3>Maintenance & Care // $600</h3>
                 <p>
-                  For magazines, journals, and publishers who need a CMS. Built
-                  with Sanity or similar headless tools so your team can publish
-                  independently.
-                </p>
+                  An annual care plan covering content updates, performance checks, and troubleshooting so you don't have to think about it.                </p>
               </div>
             </div>
             <div className="service-item">
               <span className="service-num">03</span>
               <div className="service-body">
-                <h3>Maintenance & Care</h3>
+                <h3>Consultation // $150</h3>
                 <p>
-                  Ongoing partnership: updates, content edits, performance checks,
-                  and someone who actually knows your site when something breaks.
-                </p>
+                  A one-hour conversation about your goals, your current site, or what a new one might look like.                </p>
               </div>
             </div>
           </div>

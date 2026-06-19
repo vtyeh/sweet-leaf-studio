@@ -329,7 +329,15 @@ footer {
 @media screen and (max-width: 750px) {
   #main,
   .port-section {
-    padding: 6em 3em;
+    padding: 6em;
+  }
+
+  .hero-name {
+    font-size: 1.1em;
+  }
+
+  .hero-name-line {
+    width: 3em;
   }
 
   .fancy-font {
@@ -343,6 +351,14 @@ footer {
   .service-item {
     grid-template-columns: 2.5em 1fr;
     gap: 1em;
+  }
+
+  .navbar button {
+    color: #f5f4f0;
+  }
+
+  .contactLinks {
+    color: #f5f4f0;
   }
 }
 
