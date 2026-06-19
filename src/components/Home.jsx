@@ -30,29 +30,26 @@ export default function Home() {
         <div className="section-inner">
           <p className="section-label">About</p>
           <div className="about-grid">
-            <div style={{border: "0 solid", marginBottom: "2em", padding: "1em 1em 3em 1em", width: "300px", borderRadius: "5px", boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)"}}>
+            <div className="about-img-frame">
               <img src={thisMe} className="about-img" alt="portrait of Venessa" />
             </div>
             <div className="about-text">
               <h2><i>sweet leaf</i> studio</h2>
-              <p>Hi! I'm Venessa, founder of sweet leaf studio. The name comes from my Chinese name:
-                葉香儀. I think of digital spaces as real spaces, where people actually spend time in.
+              <p><i>" Some people worry that artificial intelligence will make us feel inferior, but then, anybody in his right mind should have an inferiority complex every time he looks at a flower. "</i> - Alan C. Kay</p>
+              <p>Hi! I'm Venessa, founder of sweet leaf studio. "Sweet leaf" comes from my Taiwanese name:
+                葉香儀. I think of digital spaces as real spaces, where people actually spend time in, and tend to them as such.
+                I'm also the creator of <a href="https://opol.space/" target="_blank" rel="noreferrer">Opol</a>, a quiet space for poetry.
               </p>
               <p>
                 I have a background in sociology and philosophy, and 8 years of experience building full-stack
                 applications for small teams. This combination shapes the way I build: efficient on the inside 
                 and delightful on the outside.
-                I'm also the creator and editor-in-chief of{" "}
-                <a href="https://opol.space/" target="_blank" rel="noreferrer">
-                  Opol
-                </a>
-                , a quiet space for poetry.
               </p>
               <p>
                 At sweet leaf studio, I work with therapists, private practices, and independent makers 
-                who want a website that is part of the experience and energy they bring. I care about using tools that don't 
-                extract from you, your users, or anyone else.
+                who want a website that becomes a part of the holistic experience and energy they wish to bring to their clients.
               </p>
+              <p>When I'm not coding, you can find me snowboarding with my husband, cuddling with our two cats, drinking way too much boba milk tea, or rewatching LOTR for the 100th time. I also have an ever-growing anti-library.</p>
               <p>To get in touch, email me at hello@sweetleaf.studio</p>
             </div>
           </div>
